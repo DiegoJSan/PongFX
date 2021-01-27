@@ -171,7 +171,7 @@ public class App extends Application {
                 rectStick.setY(stickPosy);
                 //Sentencia para comprobar si hay colición entre las formas
                 Shape shapeColision = Shape.intersect(circleBall, rectStick);
-                //Variable para csaber si hay colición
+                //Variable para saber si hay colición
                 boolean colisionVacia = shapeColision.getBoundsInLocal().isEmpty();
                 //Sentencia para saber si colicionan la pala y la bola
                 if (colisionVacia == false && ballCurrentSpeedX > 0) {
